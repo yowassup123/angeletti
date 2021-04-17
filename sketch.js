@@ -71,16 +71,7 @@ function draw() {
     if (dogx > width + 50) {
       win = true;
     }
-    if (
-      xpos >= sqrx &&
-      xpos <= sqrx + 120 &&
-      ypos >= sqry &&
-      ypos <= sqry + 130 &&
-      gameState == "part2"
-    ) {
-      win = true;
-      alert("hey");
-    }
+
     if (aiMove) {
       stroke("red");
       strokeWeight(4);
